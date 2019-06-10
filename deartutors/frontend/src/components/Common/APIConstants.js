@@ -1,0 +1,13 @@
+const API_ENDPOINT = "http://localhost:4001/";
+export const API_BRAND_URL = API_ENDPOINT + "brand/";
+export const API_ADDRESS_URL = API_ENDPOINT + "address/";
+export const API_CONTACT_URL = API_ENDPOINT + "contact/";
+export const API_CATEGORIES_URL = API_ENDPOINT + "categories/";
+export const API_ABOUTUS_URL = API_ENDPOINT + "aboutus/";
+export const API_HOURS_OF_OPERATION = API_ENDPOINT + "hoursofoperation/";
+export const API_SERVICES = API_ENDPOINT + "services/";
+export const API_SERVICE_LIST = API_ENDPOINT + "servicelist/";
+export const API_SERVICE_LIST_SEARCH =
+  API_ENDPOINT + "servicelist/?service_name=";
+export const API_FILE_UPLOAD = API_ENDPOINT + "upload/";
+export const API_CONTACT_US_NEW = API_ENDPOINT + "contactus/";
