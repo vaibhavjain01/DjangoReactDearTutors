@@ -96,7 +96,7 @@ class ServiceCategories extends React.Component {
                         return (
                           <Menu.Item
                             key={i}
-                            name={category.name}
+                            name={category? category.name : "Loading"}
                             active={activeItem === category.name}
                             onClick={() => this.handleItemClick(category)}
                           >
