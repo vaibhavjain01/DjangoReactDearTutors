@@ -10,7 +10,7 @@ pylint = "*"
 django = "==2.1.*"
 djangorestframework = "*"
 django-rest-knox = "*"
-pillow = "==6.0.0"
+pillow = "==9.0.1"
 django-filter = "*"
 django-cors-headers = "*"
 
